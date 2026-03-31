@@ -12,4 +12,4 @@ module load OpenMPI/4.1.6
 source /hpc/home/nj142/miniconda3/etc/profile.d/conda.sh
 conda activate python311
 
-mpirun -n 25 python ~/Scripts/rf_benchmark_s2.py --datasets NS --workers 15
+mpirun -n 25 python ~/Scripts/2_Sentinel2_Freezeup_DCC.py --datasets NS --workers 15
